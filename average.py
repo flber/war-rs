@@ -5,7 +5,7 @@ from subprocess import Popen, PIPE, STDOUT
 turns = ""
 updated_means = ""
 
-for i in range(0, 1000):
+for i in range(0, 10000):
   p = subprocess.Popen([r'./num_turns.sh'], stdout=subprocess.PIPE)
   turns += p.stdout.read().decode("utf-8")
 

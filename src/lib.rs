@@ -4,10 +4,10 @@ use std::fmt;
 
 // #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
 // enum Face {
-	// Diamond,
-	// Heart,
-	// Spade,
-	// Club,
+// Diamond,
+// Heart,
+// Spade,
+// Club,
 // }
 
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
